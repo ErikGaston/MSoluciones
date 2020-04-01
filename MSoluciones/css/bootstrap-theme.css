@@ -1,0 +1,96 @@
+﻿.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent !important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.head-contact-social {
+    float: right;
+    margin: 0px 0px 0px 35px;
+    padding: 5px 0;
+}
+
+/*CONTACTO SOCIAL MENU*/
+.head-contact-social li {
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 100%;
+        height: 30px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        text-align: center;
+        transition: background 0.2s ease-in-out 0s;
+        width: 30px;
+        margin-left: 4px;
+}
+    .head-contact-social li > a > i {
+        font-size: 16px;
+        line-height: 1.9;
+        transition: color 0.3s ease-in-out 0s;
+    }
+
+
+/*Texto*/
+    .titulo-barra {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.titulo-text {
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 600;
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
+    color: #433B39;
+}
+h4{
+    font-size:18px;
+    margin:10px;
+}
+p{
+    font-size: 15px;
+    color: #999;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+/*Iconos*/
+.iconos .icon > i, .info .icon > i {
+   font-size: 61.6px;
+   padding:20px;
+   margin:10px;
+}
+.main{
+    margin:30px;
+}
+
+/*SECCION*/
+.sec-titulo{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+}
+.sec-info{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+
+}
+.sec1{
+    height:200px;
+    background-size:cover;
+}
