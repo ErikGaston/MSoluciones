@@ -90,6 +90,7 @@
     <Content Include="img\bg-fondo.jpg" />
     <Content Include="img\fondo-negro.jpg" />
     <Content Include="index.html" />
+    <Content Include="js\app.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-3.4.1.min.js" />
