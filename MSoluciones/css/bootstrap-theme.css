@@ -1,20 +1,47 @@
 ﻿* {
     margin: 0;
     padding: 0;
+    list-style:none;
 }
 
+
+/* PRELOAD */
 body {
-    background: url('../img/bg-fondo.jpg')center center  no-repeat fixed;
+    overflow: hidden;
+}
+
+/*.titulo-load {
+    margin-top: 11%;
+    text-align: center;
+    font-size: 1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 2px #525050;
+}*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background: url(../img/gif/load1.gif) center no-repeat ;
+    background-color:black;
 }
 
 
 /****************************************Barra de navegacion*/
 .navbar {
     z-index: 2;
-    padding-top: 2.5%;
+    padding-top: 1.5%;
     transition: all 1s ease-in-out;
 }
-n
+/*LOGO*/
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
 .nav-link {
     color: white !important;
     font-family: "Segoe UI",Arial,sans-serif;
@@ -37,6 +64,11 @@ n
     transition: background-color 200ms ease;
 }
 
+.text-descript {
+    font-style: italic;
+    color: #605E5A !important;
+    font-size:medium;
+}
 
 /****************************************Contacto Social*/
 .head-contact-social ul {
@@ -82,8 +114,9 @@ n
 /****************************************CARROUSEL*/
 .carousel-item {
     z-index: 1;
-    height: 100vh;
-    min-height: 350px;
+    height:100vh;
+    /*min-height: 350px;*/
+    width:100%;
     background: no-repeat center center scroll;
     background-size: cover;
     /*No se que es*/
@@ -92,7 +125,30 @@ n
     -o-background-size: cover;*/
 }
 
+
+
 /*Contenido Seccion*/
+.titulo-text {
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding:20px;
+    font-family: 'Raleway', sans-serif;
+    color: #433B39;
+}
+h4 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+p {
+    font-size: 15px;
+    color: #999;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
 .service {
     padding-top: 1em !important;
     padding-bottom: 3rem !important;
@@ -107,7 +163,6 @@ n
         -webkit-transition: all 1s ease;
         -moz-transition: all 1s ease;
         -o-transition: all 1s ease;
-        -ms-transition: all 1s ease;
     }
 
     .iconos .icon > i:hover {
@@ -117,54 +172,98 @@ n
         -ms-transform: scale(1.5);
         -o-transform: scale(1.5);
         transform: scale(1.5);
-        float: none;
+        float: none !important;
     }
-    .box-service .info-title{
-
-    }
-
 
 
 /****************************************Articulo 1*/
 .article1 {
-    background-size: cover;
-    background-position: left center;
-    color: white;
-    padding:100px;
-
+    padding: 10% 0;
+    text-align: center;
+    background: url('../img/profesion.jpg')center center no-repeat fixed;
+    margin-bottom:80px;
 }
 
 .sec-titulo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
+    color: white;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+
 }
 
-.sec-info {
+.sec-info p {
+    background: rgba(0,0,0,.4);
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-}
-/*Texto*/
-
-.titulo-text {
-    font-size: 40px;
-    line-height: 43px;
-    font-weight: 600;
-    margin-top: 90px;
-    font-family: 'Raleway', sans-serif;
-    color: #433B39;
+    width: 100% !important;
 }
 
-h4 {
-    font-size: 18px;
-    margin: 10px;
+.article1 .row{
+    margin:0 !important;
+
+}
+.article1 .col-sm-12 {
+    padding: 0 !important;
 }
 
-p {
-    font-size: 15px;
-    color: #999;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
+
+/*Section servicios*/
+
+.cartas {
+    margin: 30px 10px 20px 10px;  
+    width:95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+
 }
-.iq-special-1{
-    background:white;
+    .cartas:hover {
+        /*Tamaño al pasar el raton*/
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+        float: none;
+    }
+
+.img-card img{
+    height:16em;
+    width:100%;
+
 }
+.text-card {
+    background-color: white;
+    padding:20px;
+}
+
+
+
+
+/*footer*/
+.article2{
+    margin-top:10%;
+    border-top: 2px solid #dfdfdf;
+
+}
+.about-img img {
+    margin-top: 10px;
+    height: 50%;
+    width: 40%;
+    float:right;    
+
+}
+.text-izq {
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+
+
