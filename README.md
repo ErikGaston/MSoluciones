@@ -10,10 +10,10 @@ Utilidades:
  #### Tiene un Preload, que mantiene una animacion hasta cargar la web completa.
  ![Web](Vistas/6.png)
  
-  Contiene un Carrousel y Menu con accesos a redes sociales
+ #### Contiene un Carrousel y Menu con accesos a redes sociales
  ![Web](Vistas/1.PNG)
 
- Utiliza un menu fijo, con funciones de JS.
+  #### Utiliza un menu fijo, con funciones de JS.
  ![Web](Vistas/2.PNG)
 
 
@@ -22,6 +22,6 @@ Utilidades:
  
  ![Web](Vistas/4.PNG)
  
-  Utiliza Animaciones en cada aparicion del contenido
+  #### Utiliza Animaciones en cada aparicion del contenido
  ![Web](Vistas/5.png)
   
