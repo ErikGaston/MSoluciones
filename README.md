@@ -1,9 +1,5 @@
 # MSoluciones
-Realizada utilizando HTML5, CSS3 y JavaScript mediante el uso de Bootstrapt.
-Utilidades:
-
-
-
+Realizada utilizando HTML5, CSS3 y JavaScript mediante el uso de Bootstrapt, Animate.css, JQuery, WOW.js.
 
 
 ## Vistas
