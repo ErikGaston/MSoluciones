@@ -1,9 +1,9 @@
 # MSoluciones
-Realizada utilizando HTML5, CSS3 y JavaScript mediante el uso de JQuery,JSON y otros plugins.
-Es una aplicacion web de prueba, 
+Realizada utilizando HTML5, CSS3 y JavaScript mediante el uso de Bootstrapt.
+El unico problema de esta aplicación es que el token que se utiliza se tiene que cambiar cada cierto tiempo, porque dejan de andar los datos del API.
 
 ## Vistas
- ![Web](Vistas/6.PNG)
+ ![Web](Vistas/6.png)
  
  
  ![Web](Vistas/1.PNG)
@@ -18,5 +18,5 @@ Es una aplicacion web de prueba,
  ![Web](Vistas/4.PNG)
  
  
-  ![Web](Vistas/5.PNG)
+ ![Web](Vistas/5.png)
   
